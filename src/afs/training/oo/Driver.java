@@ -8,7 +8,7 @@ public class Driver {
         this.vehicle = vehicle;
     }
 
-    public void drive () {
+    public void drive() {
         vehicle.speedUp();
     }
 

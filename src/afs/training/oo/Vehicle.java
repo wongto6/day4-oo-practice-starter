@@ -14,11 +14,15 @@ public class Vehicle {
         this.acceleration = acceleration;
     }
 
-    public String getName() {return name;}
+    public String getName() {
+        return name;
+    }
 
-    public int getSpeed() {return speed;}
+    public int getSpeed() {
+        return speed;
+    }
 
-    public void speedUp(){
+    public void speedUp() {
         speed += acceleration;
         System.out.printf("%s: speedup to %d km/h%n", getName(), getSpeed());
     }

@@ -6,8 +6,12 @@ public class Truck extends Vehicle {
         super(name, speed, 2);
     }
 
-    public String getName() {return name;}
+    public String getName() {
+        return name;
+    }
 
-    public int getSpeed() {return speed;}
+    public int getSpeed() {
+        return speed;
+    }
 
 }

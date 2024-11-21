@@ -1,6 +1,6 @@
 package afs.training.oo;
 
-public class GasolineEngine extends Engine{
+public class GasolineEngine extends Engine {
 
     private static final Integer GASOLINE_ACCELERATION = 2;
 
