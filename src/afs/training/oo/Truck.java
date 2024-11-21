@@ -1,6 +1,6 @@
 package afs.training.oo;
 
-public class Bus {
+public class Truck {
 
     private String name;
 
@@ -8,10 +8,10 @@ public class Bus {
 
     private int acceleration;
 
-    public Bus(String name, int speed) {
+    public Truck(String name, int speed) {
         this.name = name;
         this.speed = speed;
-        this.acceleration = 5;
+        this.acceleration = 2;
     }
 
     public String getName() {return name;}
@@ -20,6 +20,6 @@ public class Bus {
 
     public void speedUp(){
         speed += acceleration;
-        System.out.printf("%s: speedup to %d km/h%n", name, speed);
+        System.out.printf("%s: speed up to %d km/h%n", name, speed);
     }
 }
