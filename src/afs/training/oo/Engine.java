@@ -2,7 +2,7 @@ package afs.training.oo;
 
 public class Engine {
 
-    private int acceleration;
+    private final int acceleration;
 
     public Engine(int acceleration) {
         this.acceleration = acceleration;
