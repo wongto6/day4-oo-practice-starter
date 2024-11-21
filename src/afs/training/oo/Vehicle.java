@@ -20,7 +20,7 @@ public class Vehicle {
 
     public void speedUp(){
         speed += acceleration;
-        System.out.printf("%s: is running at %d km/h%n", name, speed);
+        System.out.printf("%s: speedup to %d km/h%n", getName(), getSpeed());
     }
 
 }
