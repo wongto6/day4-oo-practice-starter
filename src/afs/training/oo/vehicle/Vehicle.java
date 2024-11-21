@@ -1,4 +1,4 @@
-package afs.training.oo;
+package afs.training.oo.vehicle;
 
 public class Vehicle {
 

@@ -1,5 +1,8 @@
 package afs.training.oo;
 
+import afs.training.oo.vehicle.Bus;
+import afs.training.oo.vehicle.Truck;
+
 public class Main {
 
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package afs.training.oo;
+package afs.training.oo.vehicle;
+
+import afs.training.oo.Engine;
 
 public class Bus extends Vehicle {
 

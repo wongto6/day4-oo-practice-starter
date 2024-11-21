@@ -1,5 +1,7 @@
 package afs.training.oo;
 
+import afs.training.oo.vehicle.Vehicle;
+
 public class Driver {
 
     private Vehicle vehicle;
