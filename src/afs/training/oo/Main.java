@@ -1,6 +1,7 @@
 package afs.training.oo;
 
 public class Main {
+
     public static void main(String[] args) {
 
         GasolineEngine gasolineEngine = new GasolineEngine();
@@ -25,6 +26,5 @@ public class Main {
         Bus electrirBus = new Bus("Electric Bus", 25, electricEngine);
         Driver electricBusDriver = new Driver(electrirBus);
         electricBusDriver.drive();
-
     }
 }
