@@ -9,7 +9,7 @@ public class Bus extends Vehicle {
         this.engine = engine;
     }
 
-    public int getEngineSpeed() {
+    public int getBusEngineAcceleration() {
         return engine.getAcceleration();
     }
 
