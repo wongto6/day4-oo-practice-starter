@@ -6,14 +6,11 @@ public class Bus extends Vehicle {
 
     public Bus(String name, int speed, Engine engine) {
         super(name, speed, engine.getAcceleration());
+        this.engine = engine;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getSpeed() {
-        return speed;
+    public int getEngineSpeed() {
+        return engine.getAcceleration();
     }
 
 }
