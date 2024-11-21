@@ -1,14 +1,14 @@
 package afs.training.oo;
 
-public class Bus {
+public class Vehicle {
 
-    private String name;
+    protected String name;
 
-    private int speed;
+    protected int speed;
 
-    private int acceleration;
+    protected int acceleration;
 
-    public Bus(String name, int speed, int acceleration) {
+    public Vehicle(String name, int speed, int acceleration) {
         this.name = name;
         this.speed = speed;
         this.acceleration = acceleration;
@@ -22,4 +22,5 @@ public class Bus {
         speed += acceleration;
         System.out.printf("%s: is running at %d km/h%n", name, speed);
     }
+
 }
